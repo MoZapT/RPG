@@ -1,0 +1,13 @@
+{
+  "Human": {
+    "Generic": {
+      "Male": [ "Albert", "Frank", "Thomas", "Edgar", "Felix" ],
+      "Female": [ "Christine", "Julia", "Tricia", "Elena", "Maria" ]
+    }
+  },
+  "Test": {
+    "Generic": {
+      "Test": [ "Test" ]
+    }
+  },
+}
