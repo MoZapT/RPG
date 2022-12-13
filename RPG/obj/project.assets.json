@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MoZap\\source\\repos\\RPG\\RPG\\RPG.csproj",
+      "projectUniqueName": "C:\\Users\\MoZap\\Desktop\\Developement\\RPG\\RPG\\RPG.csproj",
       "projectName": "RPG",
-      "projectPath": "C:\\Users\\MoZap\\source\\repos\\RPG\\RPG\\RPG.csproj",
+      "projectPath": "C:\\Users\\MoZap\\Desktop\\Developement\\RPG\\RPG\\RPG.csproj",
       "packagesPath": "C:\\Users\\MoZap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MoZap\\source\\repos\\RPG\\RPG\\obj\\",
+      "outputPath": "C:\\Users\\MoZap\\Desktop\\Developement\\RPG\\RPG\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
