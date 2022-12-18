@@ -13,8 +13,6 @@ namespace RPG.Managers
 {
     public class WorldManager
     {
-
-
         public static WorldModel CreateWorld()
         {
             WorldModel world = new();
