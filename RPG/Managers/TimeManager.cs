@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPG.Managers
 {
-    internal static class TimeManager
+    public class TimeManager
     {
     }
 }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jt+iwD1azVie51Y8/wdIu6JKm7q5bwNSo241+E5JTsMp6P5k/kvgWyyyFv1SKXU/QRdgd/ZVA3z6KPdrM3h1+w==",
+  "dgSpecHash": "ntpE8odx0CWR1NJ+WKQ9LVXXCyu5OrlVvOBuRJ7oZ6RiylGQs2QklaY06v6DU739puXleiAXTI3Py03iqhTWiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MoZap\\Desktop\\Developement\\RPG\\RPG\\RPG.csproj",
+  "projectFilePath": "C:\\Users\\MoZapT\\Documents\\Visual Studio 2019\\repos\\RPG\\RPG\\RPG.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MoZap\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\MoZapT\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }

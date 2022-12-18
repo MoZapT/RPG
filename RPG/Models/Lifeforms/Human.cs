@@ -14,7 +14,7 @@ namespace RPG.Models.Lifeforms
         {
             Random rnd = new();
 
-            GetRandomName();
+            //GetRandomName();
             Age = rnd.Next(15, 65);
         }
     }

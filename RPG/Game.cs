@@ -13,7 +13,14 @@ namespace RPG.Managers
 
         public Game()
         {
+            Console.WriteLine("Инициализация игрового мира!");
+            Console.WriteLine(PrintConstants.LINE_DIVIDER);
+
             _world = WorldManager.CreateWorld();
+            //_world = LifeformsManager.SeedLifeforms(_world);
+
+            Console.WriteLine("Инициализация игрового мира завершена!");
+            Console.WriteLine(PrintConstants.LINE_DIVIDER);
         }
     }
 }
