@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG.Interfaces.Models.StellarModels
+namespace RPG.Models.Memories
 {
-    public interface IStarBody : IStellarBody
+    internal class Memory
     {
     }
 }

@@ -1,5 +1,4 @@
-﻿using RPG.Interfaces.Models.Lifeforms;
-using RPG.Models;
+﻿using RPG.Models;
 using RPG.Models.Lifeforms;
 using System;
 using System.Collections.Generic;
