@@ -39,8 +39,8 @@ namespace RPG.Interfaces.Models
         public int EnergyCrt { get; set; }
         public int StaminaMax { get; set; }
         public int StaminaCrt { get; set; }
-        public int Weight { get; set; }
-        public int Height { get; set; }
+        public decimal Weight { get; set; }
+        public decimal Height { get; set; }
         public decimal SpeedMax { get; set; }
         public decimal SpeedCrt { get; set; }
 
@@ -53,6 +53,18 @@ namespace RPG.Interfaces.Models
         public int BluntResistance { get; set; }
         public int PiercingResistance { get; set; }
         public int SlashingResistance { get; set; }
+
+        public int Calories { get; set; }
+        public int Water { get; set; }
+        public decimal Metabolism { get; set; }
+        public decimal BloodVolume { get; set; }
+        public int Fertility { get; set; }
+        public bool Gender { get; set; }
+
+        //
+        public string? Culture { get; set; }
+        public string Race { get; }
+        public string? Religion { get; set; }
 
         //
         public IEnumerable<Memory>? Memories { get; set; }

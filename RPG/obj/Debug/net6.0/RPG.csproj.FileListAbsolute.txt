@@ -43,3 +43,13 @@ C:\Users\mozap_\Desktop\Repos\RPG\RPG\obj\Debug\net6.0\RPG.sourcelink.json
 C:\Users\mozap_\Desktop\Repos\RPG\RPG\obj\Debug\net6.0\RPG.dll
 C:\Users\mozap_\Desktop\Repos\RPG\RPG\obj\Debug\net6.0\refint\RPG.dll
 C:\Users\mozap_\Desktop\Repos\RPG\RPG\obj\Debug\net6.0\RPG.pdb
+C:\Users\mozap_\Desktop\Repos\RPG\RPG\bin\Debug\net6.0\Resources\Names.json
+C:\Users\mozap_\Desktop\Repos\RPG\RPG\bin\Debug\net6.0\RPG.exe
+C:\Users\mozap_\Desktop\Repos\RPG\RPG\bin\Debug\net6.0\RPG.deps.json
+C:\Users\mozap_\Desktop\Repos\RPG\RPG\bin\Debug\net6.0\RPG.runtimeconfig.json
+C:\Users\mozap_\Desktop\Repos\RPG\RPG\bin\Debug\net6.0\RPG.dll
+C:\Users\mozap_\Desktop\Repos\RPG\RPG\bin\Debug\net6.0\RPG.pdb
+C:\Users\mozap_\Desktop\Repos\RPG\RPG\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\mozap_\Desktop\Repos\RPG\RPG\obj\Debug\net6.0\RPG.csproj.CopyComplete
+C:\Users\mozap_\Desktop\Repos\RPG\RPG\obj\Debug\net6.0\RPG.genruntimeconfig.cache
+C:\Users\mozap_\Desktop\Repos\RPG\RPG\obj\Debug\net6.0\ref\RPG.dll

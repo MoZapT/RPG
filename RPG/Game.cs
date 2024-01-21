@@ -16,6 +16,7 @@ namespace RPG.Managers
 
         public Game()
         {
+            Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine("Инициализация игрового мира!");
             Console.WriteLine(PrintConstants.LINE_DIVIDER);
 

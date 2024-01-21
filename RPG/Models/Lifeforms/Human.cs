@@ -3,6 +3,7 @@ using RPG.Interfaces.Models;
 using RPG.Models.Memories;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,8 +35,8 @@ namespace RPG.Models.Lifeforms
         public int EnergyCrt { get; set; }
         public int StaminaMax { get; set; }
         public int StaminaCrt { get; set; }
-        public int Weight { get; set; }
-        public int Height { get; set; }
+        public decimal Weight { get; set; }
+        public decimal Height { get; set; }
         public decimal SpeedMax { get; set; }
         public decimal SpeedCrt { get; set; }
         public int FireResistance { get; set; }
@@ -52,6 +53,9 @@ namespace RPG.Models.Lifeforms
         public decimal BloodVolume { get; set; }
         public int Fertility { get; set; }
         public bool Gender { get; set; }
+        public string? Culture { get; set; }
+        public string Race { get { return "Human"; } }
+        public string? Religion { get; set; }
 
         public IEnumerable<Memory>? Memories { get; set; }
     }

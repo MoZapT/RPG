@@ -13,53 +13,66 @@ namespace RPG.Factories
     {
         public static Human CreateGenericHuman()
         {
-            return new Human()
+            Random rnd = new();
+            bool gender = rnd.Next(0, 1) != 0;
+
+            Human human = new()
             {
                 Id = Guid.NewGuid(),
-                FirstName = string.Empty,
-                LastName = string.Empty,
+                Age = rnd.Next(18, 30),
+                Gender = gender,
+
+                FirstName = HumanFactory.GetRandomFirstName("Human", gender),
+                LastName = HumanFactory.GetRandomLastName("Human", gender),
                 PatronymName = string.Empty,
                 AliasName = string.Empty,
-                Age = 0,
-                Gender = true,
-                Strength = 0,
-                Dexterity = 0,
-                Endurance = 0,
-                Intelligence = 0,
-                Charisma = 0,
-                Luck = 0,
-                Psi = 0,
-                Insight = 0,
-                Weight = 0,
-                Height = 0,
-                Fertility = 0,
-                SpeedMax = 0,
-                SpeedCrt = 0,
-                HealthMax = 0,
-                HealthCrt = 0,
+
+                Strength = 3,
+                Dexterity = 3,
+                Endurance = 3,
+                Intelligence = 3,
+                Charisma = 3,
+                Luck = 3,
+                Psi = 3,
+                Insight = 3,
+
+                Culture = string.Empty,
+                Religion = string.Empty,
+                Weight = 70.0m,
+                Height = 170.0m,
+                Fertility = 4,
+                SpeedMax = 0.0m,
+                SpeedCrt = 0.0m,
+
+                HealthMax = 35,
+                HealthCrt = 35,
                 ManaMax = 0,
                 ManaCrt = 0,
-                EnergyMax = 0,
-                EnergyCrt = 0,
-                StaminaMax = 0,
-                StaminaCrt = 0,
-                Calories = 0,
-                Water = 0,
-                Metabolism = 0,
-                BloodVolume = 0,
-                FireResistance = 0,
-                AirResistance = 0,
-                WaterResistance = 0,
-                EarthResistance = 0,
-                RadiationResistance = 0,
-                BluntResistance = 0,
-                SlashingResistance = 0,
-                PiercingResistance = 0,
+                EnergyMax = 100,
+                EnergyCrt = 100,
+                StaminaMax = 30,
+                StaminaCrt = 30,
+                Calories = 1000,
+                Water = 500,
+                Metabolism = 2.5m,
+                BloodVolume = 5.5m,
+
+                FireResistance = 2,
+                AirResistance = 2,
+                WaterResistance = 3,
+                EarthResistance = 2,
+                RadiationResistance = 1,
+                BluntResistance = 2,
+                SlashingResistance = 1,
+                PiercingResistance = 1,
+
                 Memories = new List<Memory>(),
             };
+
+            return human;
         }
 
-        public static string GetRandomFirstName(string race, string gender, string culture = "Generic")
+        public static string GetRandomFirstName(string race, bool gender, string culture = "Generic", string religion = "Generic")
         {
             Random rnd = new();
 
@@ -80,7 +93,7 @@ namespace RPG.Factories
             return name ?? "Test";
         }
 
-        public static string GetRandomLastName(string race, string gender, string culture = "Generic")
+        public static string GetRandomLastName(string race, bool gender, string culture = "Generic", string religion = "Generic")
         {
             Random rnd = new();
 
