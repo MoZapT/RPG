@@ -1,5 +1,5 @@
 ﻿using RPG.Factories;
-using RPG.Interfaces.Models;
+using RPG.Interfaces.Models.Traits;
 using RPG.Models;
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,7 @@ namespace RPG.Managers
     internal class Game
     {
         private readonly WorldModel _world;
-        private ILifeform _player;
+        private IOrganic _player;
 
         public Game()
         {

@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using RPG.Models.Lifeforms;
+using RPG.Models.Species;
 using RPG.Models.Memories;
 using System;
 using System.Collections.Generic;
@@ -65,6 +65,11 @@ namespace RPG.Factories
                 BluntResistance = 2,
                 SlashingResistance = 1,
                 PiercingResistance = 1,
+
+                Spotability = 10,
+
+                IsImmortal = false,
+                IsAlive = true,
 
                 Memories = new List<Memory>(),
             };
