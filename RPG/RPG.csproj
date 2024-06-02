@@ -18,6 +18,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Configs\core.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>core.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Configs\core.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>core.Designer.cs</LastGenOutput>
+    </None>
     <None Update="Resources\Names\ItemNames.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

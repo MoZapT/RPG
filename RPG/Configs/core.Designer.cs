@@ -22,5 +22,14 @@ namespace RPG.Configs {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("pst-GD0R8Gr81k3TrEeIF1HjfBxQWR25ljpJMs9rYVNeiKdsTU8bA97S0ZPmifPo4shf")]
+        public string AIAPI {
+            get {
+                return ((string)(this["AIAPI"]));
+            }
+        }
     }
 }

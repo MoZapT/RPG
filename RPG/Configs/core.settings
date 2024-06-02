@@ -1,6 +1,9 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RPG.Configs" GeneratedClassName="core">
+  <Profiles />
+  <Settings>
+    <Setting Name="AIAPI" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">pst-GD0R8Gr81k3TrEeIF1HjfBxQWR25ljpJMs9rYVNeiKdsTU8bA97S0ZPmifPo4shf</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
